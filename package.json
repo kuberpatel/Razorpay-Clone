@@ -1,0 +1,39 @@
+{
+  "name": "razorpay",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "tailwindcss build css/tailwind.css -o css/output.css",
+    "start": "vite",
+    "watch": "npm-watch"
+  },
+  "watch": {
+    "build-css": {
+      "patterns": [
+        "css/**/*.css",
+        "tailwind.config.js",
+        "src/**/*.{html,js,jsx,ts,tsx}"
+      ],
+      "extensions": "css,js,jsx,ts,tsx,html"
+    }
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.0.9",
+    "@tailwindcss/vite": "^4.0.9",
+    "express": "^4.21.2",
+    "feather": "^0.0.6",
+    "feather-icons": "^4.29.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "npm-watch": "^0.13.0",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.0.9",
+    "typescript": "^5.8.2"
+  }
+}

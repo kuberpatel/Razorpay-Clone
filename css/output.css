@@ -1954,9 +1954,9 @@ button,
       0.75rem;
 }
 
-.top-\[150px\]{
+.top-\[142px\]{
   top:
-      150px;
+      142px;
 }
 
 .top-\[3rem\]{
@@ -1967,6 +1967,11 @@ button,
 .-z-10{
   z-index:
       -10;
+}
+
+.z-20{
+  z-index:
+      20;
 }
 
 .z-\[100\]{
@@ -1989,6 +1994,13 @@ button,
       auto;
   margin-right:
       auto;
+}
+
+.my-14{
+  margin-top:
+      3.5rem;
+  margin-bottom:
+      3.5rem;
 }
 
 .mb-20{
@@ -2267,9 +2279,14 @@ button,
       space-between;
 }
 
-.gap-4{
+.gap-7{
   gap:
-      1rem;
+      1.75rem;
+}
+
+.gap-8{
+  gap:
+      2rem;
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]){
@@ -2342,13 +2359,6 @@ button,
       1px;
 }
 
-.border-grayBlue{
-  --tw-border-opacity:
-      1;
-  border-color:
-      rgb(52 74 108 / var(--tw-border-opacity, 1));
-}
-
 .border-lightBlue{
   --tw-border-opacity:
       1;
@@ -2356,11 +2366,18 @@ button,
       rgb(43 132 234 / var(--tw-border-opacity, 1));
 }
 
-.border-white{
+.border-slate-300{
   --tw-border-opacity:
       1;
   border-color:
-      rgb(255 255 255 / var(--tw-border-opacity, 1));
+      rgb(203 213 225 / var(--tw-border-opacity, 1));
+}
+
+.border-slate-700{
+  --tw-border-opacity:
+      1;
+  border-color:
+      rgb(51 65 85 / var(--tw-border-opacity, 1));
 }
 
 .bg-\[\#181c2e\]{

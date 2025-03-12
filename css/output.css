@@ -1949,6 +1949,11 @@ button,
       10rem;
 }
 
+.left-\[2rem\]{
+  left:
+      2rem;
+}
+
 .left-\[300px\]{
   left:
       300px;
@@ -1972,6 +1977,11 @@ button,
 .top-0{
   top:
       0px;
+}
+
+.top-1\/2{
+  top:
+      50%;
 }
 
 .top-3{
@@ -2175,6 +2185,16 @@ button,
       1.25rem;
 }
 
+.h-6{
+  height:
+      1.5rem;
+}
+
+.h-\[100px\]{
+  height:
+      100px;
+}
+
 .h-\[14px\]{
   height:
       14px;
@@ -2193,6 +2213,11 @@ button,
 .h-\[58px\]{
   height:
       58px;
+}
+
+.h-\[65\%\]{
+  height:
+      65%;
 }
 
 .h-auto{
@@ -2255,6 +2280,11 @@ button,
       1.5rem;
 }
 
+.w-\[100px\]{
+  width:
+      100px;
+}
+
 .w-\[103\%\]{
   width:
       103%;
@@ -2295,6 +2325,11 @@ button,
       500px;
 }
 
+.w-\[65\%\]{
+  width:
+      65%;
+}
+
 .w-full{
   width:
       100%;
@@ -2303,6 +2338,11 @@ button,
 .max-w-\[1080px\]{
   max-width:
       1080px;
+}
+
+.max-w-\[1300px\]{
+  max-width:
+      1300px;
 }
 
 .max-w-\[450px\]{
@@ -2551,6 +2591,13 @@ button,
       rgb(24 28 46 / var(--tw-bg-opacity, 1));
 }
 
+.bg-\[\#f4f8ff\]{
+  --tw-bg-opacity:
+      1;
+  background-color:
+      rgb(244 248 255 / var(--tw-bg-opacity, 1));
+}
+
 .bg-\[\#f5f8fe\]{
   --tw-bg-opacity:
       1;
@@ -2641,6 +2688,11 @@ button,
       1;
 }
 
+.stroke-\[5px\]{
+  stroke-width:
+      5px;
+}
+
 .object-cover{
   -o-object-fit:
       cover;
@@ -2691,6 +2743,13 @@ button,
       3rem;
   padding-bottom:
       3rem;
+}
+
+.py-20{
+  padding-top:
+      5rem;
+  padding-bottom:
+      5rem;
 }
 
 .py-3{
@@ -2878,6 +2937,13 @@ button,
       rgb(22 47 86 / var(--tw-text-opacity, 1));
 }
 
+.text-gray-400{
+  --tw-text-opacity:
+      1;
+  color:
+      rgb(156 163 175 / var(--tw-text-opacity, 1));
+}
+
 .text-grayText{
   --tw-text-opacity:
       1;
@@ -3016,6 +3082,16 @@ button,
 }
 
 @media (min-width: 768px){
+  .md\:h-10{
+    height:
+      2.5rem;
+  }
+
+  .md\:w-10{
+    width:
+      2.5rem;
+  }
+
   .md\:pr-\[90px\]{
     padding-right:
       90px;
